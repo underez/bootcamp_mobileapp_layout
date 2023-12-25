@@ -1,113 +1,94 @@
-.container {
-    display: grid;
-    max-width: 375px;
-    min-height: 700px;
+body {
+    display: block;
+    background: grey;
+    background-color: rgb(216, 165, 216,);
+    background-image: linear-gradient(360deg, rgba(243, 202, 202,0.1), rgba(228, 218, 218,1)), url("https://images.pexels.com/photos/5428150/pexels-photo-5428150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-position: no-repeat;
     margin: auto;
-    border: 2px solid #626262;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 10px 20px;
-    row-gap: 10px;
-    grid-template-rows: 1fr 28% 56% 1fr;
-  }
-  
-  .nav {
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 330px 50px;
-    align-items: center;
-   
-  }
-  .nav-name {
-    color: #ea5b3c;
-    font-size: 20px;
-    font-weight: 600;
-    align-items: center;
-    display: flex;
-    justify-content: start;
+    }
     
-  }
-  .nav-menu {
-    color: #626262;
-    font-size: 30px;
-    font-weight: 600;
-    display: flex;
-    justify-content: end;
-
-  }
-  .banner {
-    background-color: #ffecd5;
-    border-radius: 20px;
-    padding: 20px;
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-  }
-  .banner-item1 {
-    background-color: #feffe4;
-  }
-  .banner-item2 {
-    background-color: #feffe4;
-  }
-  .main {
-    background-color: #ffffff;
-    display: grid;
-    gap: 10px;
-    grid-template:
-    'mi1 mi1 mi1 mi2 mi2 mi2'
-    'mi3 mi3 mi4 mi4 mi5 mi5'
-    'mi6 mi6 mi6 mi6 mi6 mi7'
+    fieldset {
+        display: block;
+        margin-left: 600px;
+        margin-right: 600px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: rgb(237, 219, 206);
+        border-radius: 2%;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #survey-form {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
-}
-
-  .item {
-    border-radius: 10px;
-  }
-  .main-item1 {
-    background-color: #fdc788;
-    grid-area: mi1;
-  
+    }
+    h1,p {
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        display: block;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    form {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
     
-  }
-  .main-item2 {
-    background-color: #ff9d9c;
-    grid-area: mi2;
+    #name { 
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #lastname {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;;
+        
+    }
+    #email {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #number {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #telephone {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #dropdown {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #enroll {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #textarea {
+        height: 100px;
+        width: 500px;
+    }
+    #submit {
+        height: 40px;
+        width: 420px;
+        background-color:aqua;
+        cursor: pointer;
+    }
     
-
-  }
-  .main-item3 {
-    background-color: #95ffb9;
-    grid-area: mi3;
-   
-
-  }
-  .main-item4 {
-    background-color: #80c3f2;
-    grid-area: mi4;
-   
-  }
-  .main-item5 {
-    background-color: #a281e7;
-    grid-area: mi5;
-   
-  }
-  .main-item6 {
-    background-color: #f0f0f0;
-    grid-area: mi6;
-  
-  }
-  .main-item7 {
-    background-color: #f0f0f0;
-    grid-area: mi7;
+    #submit:hover {
+        background-color: rgb(246, 101, 101);
+    }
     
-  }
-   
-  .footer {
-    background-color: #6a85f0;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
-  }
-
-  
-
+    * {
+        box-sizing: border-box;
+    }
+    
